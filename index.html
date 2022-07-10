@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS local sources
+    -------------------------------------------------- -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+    <section class="header-main">
+        <span class="title-game">Game <span class="circle-game-number">21</span></span>
+        <div class="console">
+            <button id="button-new-game" title="Key (1)" disabled>New game</button>
+            <button id="button-get-card"title="Key (2)" >Get card</button>
+            <button id="button-stop" title="Key (3)" disabled>Stop</button>
+        </div>
+    </section>
+    <section class="game-board">
+        <div class="header header-player">
+            <div>Player - score: <span id="score-player">0</span></div>
+        </div>
+        <div class="container" id="container-player"></div>
+        <div class="style-width-container"></div>
+        <hr>
+        <div class="header header-cpu">
+            <div>Computer - score: <span id="score-cpu">0</span></div>
+        </div>
+        <div class="container" id="container-cpu"></div>
+    </section>
+
+    <div id="advise"></div>
+
+    <!-- JS local sources
+    -------------------------------------------------- -->
+    <script src="assets/js/libsjs/underscore-umd-min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script>
+        gameFunctions.startNewGame();
+    </script>
+</body>
+</html>

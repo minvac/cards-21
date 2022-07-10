@@ -1,0 +1,133 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(227, 227, 227);
+    font-family: Courier New;
+}
+
+.header-main {
+    display: flex;
+    padding: 4px 2% 4px 2%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.title-game {
+    height: 100%;
+    background-color: red;
+    font-weight: 500;
+    padding: 4px 0% 4px 1%;
+    border-radius: 4px;
+}
+
+.circle-game-number {
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    padding: 4px;
+}
+
+.console {
+    background-color: gray;
+    padding: 2px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+#advise {
+    background-color: black;
+    color: white;
+    width: 30%;
+    position: absolute;
+    top: 40px;
+    right: 0.5%;
+    padding: 10px 10px 10px 15px;
+    visibility: hidden;
+    border-radius: 4px;
+    opacity: 50%
+}
+
+.header {
+    margin: 8px 4px 4px 2%;
+    background-color: rgb(207, 207, 207);
+    width: max-content;
+    border-radius: 4px;
+    padding: 0% 1% 0% 1%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 180px;
+    width: 50%;
+    max-width: 100%;
+}
+
+.card {
+    width: 80px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 4px 2px 2px 2px;
+    border-radius: 8px;
+    background-color: silver;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    position: relative;
+    left: 80px;
+    margin-left: -60px;
+}
+
+.card:nth-child(-n+10) {
+    background-color: white;
+}
+
+.square-red { 
+    width: 20px;
+    height: 20px;
+    background: red;
+    margin: 1px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-red { 
+    width: 20px;
+    height: 20px;
+    background: red;
+    margin: 1px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.square-black { 
+    width: 20px;
+    height: 20px;
+    background: black;
+    margin: 1px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-black { 
+    width: 20px;
+    height: 20px;
+    background: black;
+    margin: 1px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
