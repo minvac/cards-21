@@ -1,3 +1,3 @@
-# game-21
+# cards-21
 
-https://minvac.github.io/game-21/
+https://minvac.github.io/cards-21/
